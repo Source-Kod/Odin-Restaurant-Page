@@ -1,3 +1,5 @@
 import createHomepage from './homepage';
+import createMenuPage from './menu';
 
-createHomepage();
+// createHomepage();
+createMenuPage();
