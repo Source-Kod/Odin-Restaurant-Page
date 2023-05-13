@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-custom-image {
+  background-image: url('../assets/pexels-ella-olsson-1640772.jpg');
+}

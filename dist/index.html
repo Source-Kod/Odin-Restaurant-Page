@@ -6,12 +6,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./style.css" rel="stylesheet">
-  <script src="./main.js"></script>
+  <script src="./main.js" defer></script>
 </head>
 
-<body class="bg-neutral-600 flex flex-col">
+<body class="bg-custom-image bg-cover h-screen flex flex-col items-center">
   <!-- header -->
-  <div class="flex flex-col items-center bg-black bg-opacity-50 text-white">
+  <div class="flex flex-col items-center bg-black bg-opacity-80 text-white w-screen mb-44">
     <!-- restaurant name -->
     <div>
       <h1 class="text-4xl">Verdant Vitality</h1>
@@ -25,8 +25,7 @@
       </ul>
     </div>
   </div>
-
-  <div id="content"></div>
+  <div id="content" class="bg-black bg-opacity-80 text-white w-3/5 flex flex-col items-center rounded-lg"></div>
 </body>
 
 </html>

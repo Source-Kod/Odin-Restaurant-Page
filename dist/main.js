@@ -1,1 +1,1 @@
-console.log("test passed");
+(()=>{"use strict";!function(){const e=document.querySelector("#content"),t=document.createElement("ul");document.createElement("div"),document.createElement("p"),e.appendChild(t);const n=document.createElement("p"),a=document.createElement("p"),c=document.createElement("p");t.appendChild(n),t.appendChild(a),t.appendChild(c),n.textContent="Hours of operation:",a.textContent="Monday-Friday 10am-9:30pm",c.textContent="Saturday and Sunday 9am-9:30pm",t.classList="flex flex-col gap-3"}()})();

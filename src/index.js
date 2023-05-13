@@ -1,1 +1,3 @@
-console.log('test passed');
+import { createHomepage } from './homepage';
+
+createHomepage();
