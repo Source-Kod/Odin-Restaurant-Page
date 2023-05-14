@@ -5,12 +5,12 @@ function createHomepage() {
   const foodGrid = document.createElement('div');
   const bottomText = document.createElement('p');
   const imageSources = [
-    '../assets/g1-pexels-lisa-fotios-1351238.jpg',
-    '../assets/g2-pexels-grooveland-designs-3607284.jpg',
-    '../assets/g3-pexels-pixabay-248509.jpg',
-    '../assets/g4-pexels-nataliya-vaitkevich-6275187.jpg',
-    '../assets/g5-pexels-bulbfish-1143754.jpg',
-    '../assets/g6-pexels-engin-akyurt-2456435.jpg',
+    'assets/g1-pexels-lisa-fotios-1351238.jpg',
+    'assets/g2-pexels-grooveland-designs-3607284.jpg',
+    'assets/g3-pexels-pixabay-248509.jpg',
+    'assets/g4-pexels-nataliya-vaitkevich-6275187.jpg',
+    'assets/g5-pexels-bulbfish-1143754.jpg',
+    'assets/g6-pexels-engin-akyurt-2456435.jpg',
   ];
 
   contentContainer.appendChild(topText);
