@@ -113,6 +113,7 @@ function createSectionItems(sectionArray, sectionContainer) {
 function createMenuPage() {
   // containers
   const contentContainer = document.querySelector('#content');
+  contentContainer.classList.remove('items-center');
 
   const appetizersContainer = document.createElement('div');
   appetizersContainer.classList = 'flex flex-col gap-4 p-4';

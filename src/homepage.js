@@ -1,5 +1,6 @@
 function createHomepage() {
   const contentContainer = document.querySelector('#content');
+  contentContainer.classList.remove('items-center');
   const topText = document.createElement('ul');
   const foodGrid = document.createElement('div');
   const bottomText = document.createElement('p');
@@ -28,7 +29,7 @@ function createHomepage() {
   topText.classList = 'flex flex-col gap-3 items-center text-xl pb-8';
 
   contentContainer.appendChild(foodGrid);
-  foodGrid.classList = 'grid grid-cols-3 grid-flow-row gap-3';
+  foodGrid.classList = 'grid grid-cols-3 grid-flow-row gap-1';
 
   imageSources.forEach((e, index) => {
     const img = document.createElement('img');
